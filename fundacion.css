@@ -1,0 +1,107 @@
+body{
+font-family:helvetica,arial,sans-serif;
+font-size:16px;
+line-height: 1.25; /*background-color:transparent;*/
+margin:0;
+}
+/*.banner{
+  height:800px;
+  width:805px;
+  margin:auto; /*centrado*/
+
+  /*background-size: 100% 100%;/*Ajusta la img al rango descrito */
+  /*animation-delay: 10s
+  animation-interation-count:infinite*/
+/*}
+@keyframes banner{
+  0%,30% {background-image: url(img/niños.jpg);
+
+  }*/
+
+}
+
+
+.containerheader{
+  width:90%;
+  margin: 0 auto;
+
+
+
+
+}
+.header {
+   width: : 100%;
+   /*color:transparent;*/
+   /*background-color:transparent*/;/*background-color:#515A5A;*//*#EAECEE;*//*transparent;*/ /*#E8DAEF*/
+   position: fixed;
+   left: 0;
+   top:0;
+   width: 100%;
+   background-color: blue;
+   opacity:.5;
+   }
+   .header li {
+     position: relative;
+
+   }
+.header a{
+    text-decoration:none;/*deja de subrrayar el menú*/
+     /*en el ejemplo aplican pading*/
+    color:white;/*Este es el color del menú*/
+  }
+
+.logo-nav-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.navigation ul{
+   margin:0;
+   padding: 0;
+   list-style: none;
+}
+
+.navigation ul li{
+
+  display: inline-block;
+  margin:10px;
+
+
+}
+.navigation ul li a:hover{
+  background:#FDEBD0; /*este es el color rosa al seleccionar el menú*/
+  /*transition: all 0.4s linear;*/
+  /*border-radius: 5px;*/
+  /*padding: 0.5rem  1rem;*/
+  /*margin: 10px 20px;*/
+
+
+
+}
+
+.main{
+  background:black;
+  padding-top: 150px;
+
+}
+.container{ /*clase de main*/
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+
+.footer{
+  width: 100%;
+  background:blue /*#424949*/ ;
+}
+/*.container{
+  width: 90%;*/
+}
+.container-div-p{
+  width: 90%;
+}
+/*.containerfooter{
+  width:90%;
+}*/
